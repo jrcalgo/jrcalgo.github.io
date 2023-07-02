@@ -1,0 +1,64 @@
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the main content */
+  main {
+    margin: 20px;
+  }
+  
+  /* Style the section headings */
+  h2 {
+    color: #333;
+  }
+  
+  /* Style the project list */
+  ul {
+    list-style-type: none;
+  }
+  
+  /* Style the contact form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label, input, textarea {
+    margin: 10px;
+  }
+  
+  input, textarea {
+    border: 1px solid #333;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
