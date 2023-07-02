@@ -1,68 +1,88 @@
-/* Style the header */
-header {
-    background-color: #333;
-    color: white;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
   }
   
-  /* Style the navigation menu */
-  nav {
-    display: flex;
-    justify-content: space-around;
+  h1, h2, h3, p {
+    font-family: Arial, sans-serif;
   }
   
-  nav a {
-    color: white;
+  h1 {
+    color: #333333;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #666666;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    color: #999999;
+  }
+  
+  p {
+    color: #444444;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #0066cc;
     text-decoration: none;
   }
   
-  nav a:hover {
+  a:hover {
     text-decoration: underline;
   }
   
-  /* Style the main content */
-  main {
-    margin: 20px;
-    padding: 0 20px; /* Add padding to the left and right sides */
+  .project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
   }
   
-  /* Style the section headings */
-  h2 {
-    color: #333;
+  .project img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
   }
   
-  /* Style the project list */
-  ul {
-    list-style-type: none;
+  .project-info {
+    margin-left: 10px;
   }
   
-  /* Style the contact form */
-  form {
+  .contact-form {
     display: flex;
     flex-direction: column;
   }
   
-  label, input, textarea {
-    margin: 10px;
+  .contact-form label {
+    margin-top: 10px;
   }
   
-  label {
-    margin-bottom: 0; /* Reduce the margin below the labels */
+  .contact-form input, .contact-form textarea {
+    padding: 5px;
   }
   
-  input, textarea {
-    border: 1px solid #333;
-  }
-  
-  input[type="submit"] {
-    background-color: #333;
+  .contact-form input[type="submit"] {
+    background-color: #0066cc;
     color: white;
+    border: none;
   }
   
-  /* Style the footer */
-  footer {
-    background-color: #333;
-    color: white;
+  .footer {
+    background-color: #f0f0f0;
     padding: 10px;
     text-align: center;
   }
